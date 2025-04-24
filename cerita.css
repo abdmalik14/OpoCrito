@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.cerita-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.cerita-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #333;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    color: #666;
+    font-family:'Times New Roman', Times, serif
+}
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f7f;
+}
