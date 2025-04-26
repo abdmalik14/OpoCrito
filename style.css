@@ -407,3 +407,18 @@ button:hover {
     justify-content: center;
     font-family: 'comic sans ms';
 }
+
+.audio-player {
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+.audio-player:hover {
+    background-color: #d0d0d0;
+}
