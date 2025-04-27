@@ -47,8 +47,8 @@ h4 {
     display: inline-block;
     margin-top: 50px;
     border-radius: 20%;
-    width: 500px;
-    height: 350px;
+    width: 100vh;
+    height: auto;
 }
 
 @media (max-width: 600px) {
@@ -58,25 +58,30 @@ h4 {
 }
 
 .bg-image-2 {
-    width: 500px;
-    height: 350px;
-}
-
-.bg-image-2 img {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
+    display: inline-block;
+    margin-top: 20px;
+    width:  100vh;
+    height: 75vh;
 }
 
 @media screen and (max-width: 600px) {
     .wrapper {
-        width: 100%; }
+        width: 100%;}
+    {
+        padding: 20px;;
+    }
+        
 }
 
-.wrapper {
+.navbar {
     width: 1100px;
     margin: auto;
     position: relative;
+    
+}
+
+.wrapper {
+    padding: 20px;
 }
 
 .logo a {
@@ -140,7 +145,8 @@ section {
 
 .kolom p {
     margin-top: 0;
-    margin: 0px;
+    margin: 15px 0;
+    font-size: 1.1em;
 }
 
 .kolom .deskripsi {
@@ -165,6 +171,7 @@ a.tbl-biru:hover {
     background: #3f72af;
     text-decoration: none;
 }
+
 
 a.tbl-pink {
     background: #3f72af;
