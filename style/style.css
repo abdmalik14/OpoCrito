@@ -1,0 +1,556 @@
+*{
+    text-decoration: none ;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFFFE0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Font Style Start*/
+p {
+    margin: 10px 0 10px 0;
+    padding: 10ox 0 10px 0;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #333333;
+    width: 100%;
+    line-height: 50px;
+}
+
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333333;
+    width: 100%;
+    line-height: 50px;
+}
+/* Font Style End */
+
+/* Navbar Style Start */
+.navbar {
+    width: 1100px;
+    margin: auto;
+    position: relative
+}
+
+nav {
+    width: 100%;
+    max-resolution: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    font-family: 'Courier';
+    font-size: 20px;
+    color: #000000;
+    font-weight: 800;
+    text-align: center;
+    padding: 0 15px 0 15px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: #333333;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'courier';
+    color: #364F6B;
+}
+
+
+.tbl-menu {
+    position: absolute;
+    top: 1.7rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+
+.tbl-menu .garis {
+    height: 3px;
+    background-color: #364F6B;
+}
+
+.menu {
+    float: right;
+}
+
+
+/* Navbar Style End */
+
+/* Section Style Start */
+.wrapper {
+    padding: 20px;
+}
+
+#home {
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.bg-image {
+    display: flex;
+    margin-top: 50px;
+    width: 100vh;
+    height: auto;
+}
+
+.bg-image-2{
+    display: flex;
+    margin-top: 20px;
+    width: 100vh;
+    height: auto;
+}
+
+.kolom {
+    margin-top: 0;
+    margin: 15px 0;
+    font-size: 1.1em;
+}
+
+.deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #364F6B;
+}
+
+.tbl-biru {
+    background: #364F6B;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+
+.tbl-biru a {
+    color: #FFFFFF;
+}
+
+
+
+.tbl-biru:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+/* Section Style End */
+
+/* Cerita Style Start */
+.judul {
+    font-family: 'Courier';
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 120px;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.judul h3 {
+    padding-bottom: 20px;
+}
+
+.cerita {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.cerita-card {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.cerita-card h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    font-size: 30px;
+}
+
+.cerita-card p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.cerita-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tbl-cerita {
+    background-color: #364F6B;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+
+.tbl-cerita a {
+    color: #FFFFFF;
+}
+
+.tbl-cerita:hover {
+    opacity: 0.7;
+}
+/* Cerita Style End */
+
+/* Tentang Kami Style Start */
+#contact {
+    background-color: #a9a9a9;
+    padding: 50px 0px 50px 0px;
+    margin: -40px;
+    margin-top: 80px;
+}
+
+.footer {
+    background-color: #a9a9a9;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+
+#copyright {
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: -100px;
+    padding-top: 100px;
+}
+
+/* Media Query Start */
+@media screen and (max-width: 1200px) { 
+    .navbar {
+        width: 100%;
+    }
+    .logo a {
+        font-size: 50px;
+        margin-left: 50px;
+    }
+
+    .bg-image {
+        width: 50%;
+        height: auto;
+    }
+
+    .bg-image-2 {
+        width: 50%;
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar {
+        width: 100%;
+    }
+    .logo a {
+        font-size: 40px;
+        margin-left: 50px;
+    }
+
+    .bg-image .bg-image-2 {
+        width: 80%;
+        height: auto;
+    }
+
+    .tbl-biru {
+        font-size: 16px;
+    }
+
+    .kolom {
+        font-size: 14px;
+    }
+
+    .kolom h2 {
+        font-size: 28px;
+    }
+
+    .deskripsi {
+        font-size: 16px;
+    }
+
+    .kolom-2 {
+        font-size: 14px;
+    }
+
+    .kolom-2 h2 {
+        font-size: 30px;
+    }
+    .deskripsi-2 {
+        font-size: 16px;
+    }
+
+    .cerita {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    }   
+
+    .cerita-card {
+    margin: 10px;
+
+    }
+
+    .cerita-card img {
+        width: 80%;
+        max-width: 100%;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        width: 100%;
+    }
+    .logo  {
+        width: 97%;
+        display: flex;
+        justify-content: center
+    }
+
+    .logo a {
+        text-align: center;
+    }
+
+    .tbl-menu {
+        display: flex;
+    }
+
+    .garis {
+        width: 80%;
+        height: 2px;
+        background-color: #364F6B;
+    }
+
+    .menu {
+        display: none;
+        width: 100%;    
+    }
+
+    .menu.active {
+        display: block;
+    }
+    nav ul {
+       padding: 0;
+    }
+
+    nav ul li {
+        margin: auto;
+        width: 100%;
+        border-bottom: 2px solid #000000;
+        text-align: center;
+    }
+
+    nav ul li a {
+        padding: 10px;
+        display: block;
+    }
+    
+    #home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .bg-image {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+    .bg-image-2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+        
+    .kolom {
+        width: 100%;
+    }
+
+    .kolom-2 {
+        width: 106%;
+        margin: 20px;
+    }
+    
+    .cerita {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cerita-card {
+        width: 80%;
+        margin: 10px auto;
+    }
+    
+    .footer{
+    font-family: 'Times New Roman', Times, serif ;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        width: 100%;
+    }
+    .logo {
+        display: flex;
+        width: 100%;;
+        text-align: center;
+    }
+
+    .logo a {
+        font-size: 40px;
+        margin-left: 10px;
+    }
+    .tbl-menu {
+        display: flex;
+    }
+
+    .menu {
+        display: none;    
+    }
+
+    .menu.active {
+        display: block;
+    }
+    nav ul {
+       padding: 0;
+    }
+
+    nav ul li {
+        margin: auto;
+        width: 100%;
+        border-bottom: 2px solid #000000;
+        text-align: center;
+    }
+
+    nav ul li a {
+        padding: 10px;
+        display: block;
+    }
+    
+    #home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .bg-image {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .bg-image-2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+        
+    .kolom {
+        width: 100%;
+    }
+
+    .kolom-2 {
+        width: 110%;
+        margin: 20px;
+    }
+    
+    .cerita-card {
+        width: 100%;
+        height: 40%;
+        margin: 10px auto;
+    }
+
+    .cerita-card p {
+        font-size: 10px;
+    }
+    .cerita-card h1 {
+        font-size: 18px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .footer-section {
+        width: 100%;
+        margin: 20px 0;
+        text-align: left;
+    }
+}
+/* Media Query End */

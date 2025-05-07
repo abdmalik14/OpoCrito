@@ -1,0 +1,345 @@
+*{
+    text-decoration: none ;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFFFE0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Font Style Start*/
+p {
+    margin: 15px 0;
+    color: #555;
+    font-size: 1.1em;
+}
+
+h1 {
+    font-family: 'Courier';
+    font-size: 3em;
+    color: #333;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #333333;
+    width: 100%;
+    line-height: 50px;
+}
+
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333333;
+    width: 100%;
+    line-height: 50px;
+}
+/* Font Style End */
+
+/* Navbar Style Start */
+.navbar {
+    width: 1100px;
+    margin: auto;
+    position: relative
+}
+
+nav {
+    width: 100%;
+    max-resolution: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    font-family: 'Courier';
+    font-size: 20px;
+    color: #000000;
+    font-weight: 800;
+    text-align: center;
+    padding: 0 15px 0 15px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: #333333;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'courier';
+    color: #364F6B;
+}
+
+.tbl-menu {
+    position: absolute;
+    top: 1.7rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.garis {
+    height: 3px;
+    background-color: #364F6B;
+}
+
+.menu {
+    float: right;
+}
+/* Navbar Style End */
+
+/* Cerita Style Start */
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px; /* Jika ingin sudut bulat */
+}
+
+.text-content {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+/* Cerita Style End */
+
+/* Footer Style Start */
+#contact {
+    background-color: #A9A9A9;
+    padding: 40px 0px 40px 0px;
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: #A9A9A9;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+
+#copyright {
+    text-align: center;
+    margin: 20px;
+}
+/* Footer Style End */
+
+/* Audio Style Start */
+.audio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+audio {
+    width: 100%;
+}
+/* Audio Style End */
+
+@media screen and (max-width: 1200px) { 
+    .navbar {
+        width: 100%;
+    }
+    .logo a { 
+        font-size: 50px;
+        margin-left: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar {
+        width: 100%;
+    }
+    .logo a {
+        font-size: 40px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        width: 100%;
+    }
+    .logo  {
+        width: 97%;
+        display: flex;
+        justify-content: center
+    }
+
+    .logo a {
+        text-align: center;
+    }
+
+    .tbl-menu {
+        display: flex;
+    }
+
+    .garis {
+        width: 80%;
+        height: 2px;
+        background-color: #364F6B;
+    }
+
+    .menu {
+        display: none;
+        width: 100%;    
+    }
+
+    .menu.active {
+        display: block;
+    }
+    nav ul {
+       padding: 0;
+    }
+
+    nav ul li {
+        margin: auto;
+        width: 100%;
+        border-bottom: 2px solid #000000;
+        text-align: center;
+    }
+
+    nav ul li a {
+        padding: 10px;
+        display: block;
+    }
+    
+    #home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer{
+    font-family: 'Times New Roman', Times, serif ;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        width: 100%;
+    }
+    .logo {
+        display: flex;
+        width: 100%;;
+        text-align: center;
+    }
+
+    .logo a {
+        font-size: 40px;
+        margin-left: 10px;
+    }
+    .tbl-menu {
+        display: flex;
+    }
+
+    .menu {
+        display: none;    
+    }
+
+    .menu.active {
+        display: block;
+    }
+    nav ul {
+       padding: 0;
+    }
+
+    nav ul li {
+        margin: auto;
+        width: 100%;
+        border-bottom: 2px solid #000000;
+        text-align: center;
+    }
+
+    nav ul li a {
+        padding: 10px;
+        display: block;
+    }
+    
+    #home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .footer-section {
+        width: 100%;
+        margin: 20px 0;
+        text-align: left;
+    }
+}
+
+/* Media Query End */
