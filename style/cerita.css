@@ -197,6 +197,7 @@ audio {
 }
 /* Audio Style End */
 
+/* Media Query Start */
 @media screen and (max-width: 1200px) { 
     .navbar {
         width: 100%;
@@ -335,11 +336,11 @@ audio {
         align-items: stretch;
     }
 
+
     .footer-section {
         width: 100%;
         margin: 20px 0;
-        text-align: left;
+        margin-left: 20px;
     }
 }
-
 /* Media Query End */
