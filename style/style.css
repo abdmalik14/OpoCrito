@@ -15,7 +15,7 @@ body {
 /* Font Style Start*/
 p {
     margin: 10px 0 10px 0;
-    padding: 10ox 0 10px 0;
+    padding: 10px 0 10px 0;
 }
 
 h2 {
@@ -184,11 +184,13 @@ nav ul li a:hover{
     font-size: 2em;
     font-weight: 800;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 100px;
     box-shadow: 0 0 10px;
     border-radius: 20px;
     padding: 50px;
 }
+
+    
 
 .judul h3 {
     padding-bottom: 20px;
@@ -304,6 +306,8 @@ nav ul li a:hover{
         width: 50%;
         height: auto;
     }
+
+   
     
 }
 
@@ -316,9 +320,13 @@ nav ul li a:hover{
         margin-left: 50px;
     }
 
-    .bg-image .bg-image-2 {
-        width: 80%;
-        height: auto;
+    .bg-image {
+        width: 60%;
+        height: 30vh;
+    } 
+    .bg-image-2 {
+        width: 60%;
+        height: 30vh;
     }
 
     .tbl-biru {
@@ -357,14 +365,12 @@ nav ul li a:hover{
     }   
 
     .cerita-card {
-    margin: 10px;
-
+        margin: 10px ;
+        padding: 20px;
     }
 
     .cerita-card img {
-        width: 80%;
-        max-width: 100%;
-        border-radius: 10px;
+      width: 100%;
     }
 }
 
@@ -459,7 +465,6 @@ nav ul li a:hover{
         width: 100%;
         border-radius: 20px;
         padding: 10px;
-        max-width: 100%;
     }
     
     .footer{
@@ -542,14 +547,19 @@ nav ul li a:hover{
     .cerita-card {
         width: 100%;
         height: 40%;
-        margin: 10px auto;
+        margin: 20px auto;
+        padding: 20px;
     }
 
     .cerita-card p {
-        font-size: 10px;
+        font-size: 12px;
     }
     .cerita-card h1 {
-        font-size: 18px;
+        font-size: 20px;
+    }
+    
+    .cerita-card img {
+        width: 100%;
     }
 
     .footer {
