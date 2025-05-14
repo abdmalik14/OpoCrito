@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #FFFFE0;
     margin: 0;
     padding: 0;
@@ -19,7 +19,6 @@ p {
 }
 
 h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 800;
     font-size: 45px;
     margin-bottom: 20px;
@@ -29,7 +28,6 @@ h2 {
 }
 
 h4 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 800;
     font-size: 20px;
     margin-bottom: 20px;
@@ -152,7 +150,6 @@ nav ul li a:hover{
 .deskripsi {
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #364F6B;
 }
 
@@ -180,7 +177,7 @@ nav ul li a:hover{
 
 /* Cerita Style Start */
 .judul {
-    font-family: 'Courier';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2em;
     font-weight: 800;
     text-align: center;
@@ -197,7 +194,6 @@ nav ul li a:hover{
 }
 
 .cerita {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -210,20 +206,19 @@ nav ul li a:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     justify-content: center;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 250px;
     margin: 10px;
     padding: 20px;
 }
 
 .cerita-card h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #000000;
     font-size: 30px;
 }
 
 .cerita-card p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #000000;
     font-size: 15px;
     font-weight: 500;
@@ -236,6 +231,7 @@ nav ul li a:hover{
 }
 
 .tbl-cerita {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #364F6B;
     border-radius: 20px;
     padding: 10px 15px 10px 15px;
@@ -265,7 +261,6 @@ nav ul li a:hover{
 
 .footer {
     background-color: #a9a9a9;
-    font-family: 'Times New Roman', Times, serif;
     color: #333333;
     width: 100%;
     position: relative;
@@ -434,7 +429,7 @@ nav ul li a:hover{
     }
     
     .bg-image-2 {
-        width: 100%;
+        width: 80%;
         margin-bottom: 20px;
     }
         
@@ -456,9 +451,9 @@ nav ul li a:hover{
     .cerita-card {
         box-sizing: border-box;
         border-radius: 20px;
-        width: 70%;
+        width: 80%;
         margin: 20px ;
-        padding: 40px;
+        padding: 20px;
     }
 
     .cerita-card img {
@@ -467,13 +462,24 @@ nav ul li a:hover{
         padding: 10px;
     }
     
-    .footer{
-    font-family: 'Times New Roman', Times, serif ;
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
+    .cerita-card h1 {
+        font-size: 25px;
+    }
+
+    .cerita-card p {
+        font-size: 15px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+
+    .footer-section {
+        width: 100%;
+        margin: 20px 0;
+        padding: 10px;
     }
 
 }
@@ -567,10 +573,11 @@ nav ul li a:hover{
         align-items: stretch;
     }
 
+
     .footer-section {
         width: 100%;
         margin: 20px 0;
-        text-align: left;
+        padding: 20px;
     }
 }
 /* Media Query End */
