@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS';
     background-color: #FFFFE0;
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@ p {
 }
 
 h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS';
     font-size: 3em;
     color: #333;
     text-align: center;
@@ -121,7 +121,7 @@ nav ul li a:hover{
 .responsive-image {
     max-width: 100%;
     height: auto;
-    border-radius: 15px; /* Jika ingin sudut bulat */
+    border-radius: 15px; 
 }
 
 .text-content {
@@ -269,7 +269,7 @@ audio {
     }
 
     .footer{
-    font-family: 'Times New Roman', Times, serif ;
+    font-family: 'Trebuchet MS';
     width: 100%;
     position: relative;
     display: flex;

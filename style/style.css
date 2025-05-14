@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Trebuchet MS';
     background-color: #FFFFE0;
     margin: 0;
     padding: 0;
@@ -181,7 +181,7 @@ nav ul li a:hover{
 
 /* Cerita Style Start */
 .judul {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS';
     font-size: 2em;
     font-weight: 800;
     text-align: center;
@@ -216,13 +216,13 @@ nav ul li a:hover{
 }
 
 .cerita-card h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS';
     color: #000000;
     font-size: 30px;
 }
 
 .cerita-card p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS';
     color: #000000;
     font-size: 15px;
     font-weight: 500;
@@ -235,7 +235,7 @@ nav ul li a:hover{
 }
 
 .tbl-cerita {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS';
     background-color: #364F6B;
     border-radius: 20px;
     padding: 10px 15px 10px 15px;
