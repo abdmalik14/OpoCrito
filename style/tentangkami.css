@@ -6,18 +6,33 @@
 }
 
 body {
-    font-family: 'segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #FFFFE0;
 }
 
 /* Font Style Start*/
 p {
-    font-size: 16px;
     margin: 10px 0 10px 0;
-    padding: 10ox 0 10px 0;
+    padding: 10px 0 10px 0;
 }
 
+h2 {
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #333333;
+    width: 100%;
+    line-height: 50px;
+}
 
+h4 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333333;
+    width: 100%;
+    line-height: 50px;
+}
 /* Font Style End */
 
 /* Navbar Style Start */
@@ -97,17 +112,88 @@ nav ul li a:hover{
 }
 /* Navbar Style End */
 
+/* Section Style Start */
+.wrapper {
+    padding: 20px;
+}
+
+#home {
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.bg-image {
+    display: flex;
+    margin-top: 50px;
+    width: 100vh;
+    height: auto;
+}
+
+.bg-image-2{
+    display: flex;
+    margin-top: 20px;
+    width: 100vh;
+    height: auto;
+}
+
+.kolom {
+    margin-top: 0;
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+
+.deskripsi {
+    font-size: 30px;
+    font-weight: bold;
+    color: #364F6B;
+}
+
+.deskripsi-2 {
+    margin-left: -20px;
+    font-size: 20px;
+}
+
+
+
+.kolom .deskripsi p {
+    font-size: 20px;
+}
+
+.tbl-biru {
+    background: #364F6B;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+
+.tbl-biru a {
+    color: #FFFFFF;
+}
+
+
+
+.tbl-biru:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+/* Section Style End */
+
 
 /* Tentang Kami Style Start */
 #contact {
     background-color: #a9a9a9;
     padding: 50px 0px 50px 0px;
+    margin: -40px;
     margin-top: 80px;
 }
 
 .footer {
     background-color: #a9a9a9;
-    font-family: 'Times New Roman', Times, serif;
     color: #333333;
     width: 100%;
     position: relative;
@@ -124,9 +210,9 @@ nav ul li a:hover{
 
 #copyright {
     text-align: center;
-    margin-top: -100px;
-    margin-bottom: -100px;
-    padding-top: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-top: 20px;
 }
 
 
@@ -207,7 +293,7 @@ nav ul li a:hover{
     }
 
     .footer{
-    font-family: 'Times New Roman', Times, serif ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 100%;
     position: relative;
     display: flex;
@@ -327,7 +413,12 @@ nav ul li a:hover{
 
         .profile-img {
             width: 100%;
-            border-radius: 100%;
+            border-radius: 50%;
+        }
+
+        .profile-img-2 {
+            width: 100%;
+            border-radius: 20px;
         }
         
         .social-icons {

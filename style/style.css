@@ -147,6 +147,10 @@ nav ul li a:hover{
     font-size: 1.1em;
 }
 
+.kolom-2 {
+    margin-top: 70px;
+}
+
 .deskripsi {
     font-size: 20px;
     font-weight: bold;
@@ -254,9 +258,9 @@ nav ul li a:hover{
 /* Tentang Kami Style Start */
 #contact {
     background-color: #a9a9a9;
-    padding: 50px 0px 50px 0px;
+    padding: 40px 0px 40px 0px;
     margin: -40px;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .footer {
@@ -283,6 +287,26 @@ nav ul li a:hover{
 }
 
 /* Media Query Start */
+@media screen and (max-width: 1500px) { 
+    .navbar {
+        width: 100%;
+    }
+    .logo a {
+        font-size: 50px;
+        margin-left: 153px;
+    }
+
+    .bg-image {
+        width: 50%;
+        height: auto;
+    }
+
+    .bg-image-2 {
+        width: 50%;
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 1200px) { 
     .navbar {
         width: 100%;
@@ -374,7 +398,7 @@ nav ul li a:hover{
         width: 100%;
     }
     .logo  {
-        width: 97%;
+        width: 90%;
         display: flex;
         justify-content: center
     }
@@ -490,15 +514,19 @@ nav ul li a:hover{
     }
     .logo {
         display: flex;
-        width: 100%;;
-        text-align: center;
+        width: 90%;
+        text-align: ;
     }
 
     .logo a {
         font-size: 40px;
-        margin-left: 10px;
+        margin-left: 20px;
     }
     .tbl-menu {
+        display: flex;
+    }
+
+    .tbl.menu {
         display: flex;
     }
 
