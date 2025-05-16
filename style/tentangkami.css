@@ -1,5 +1,5 @@
-*{
-    text-decoration: none ;
+* {
+    text-decoration: none;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -33,6 +33,7 @@ h4 {
     width: 100%;
     line-height: 50px;
 }
+
 /* Font Style End */
 
 /* Navbar Style Start */
@@ -76,7 +77,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     text-decoration: underline;
     color: #333333;
 }
@@ -110,6 +111,7 @@ nav ul li a:hover{
 .menu {
     float: right;
 }
+
 /* Navbar Style End */
 
 /* Section Style Start */
@@ -130,7 +132,7 @@ nav ul li a:hover{
     height: auto;
 }
 
-.bg-image-2{
+.bg-image-2 {
     display: flex;
     margin-top: 20px;
     width: 100vh;
@@ -181,6 +183,7 @@ nav ul li a:hover{
     opacity: 0.7;
     text-decoration: none;
 }
+
 /* Section Style End */
 
 
@@ -217,21 +220,23 @@ nav ul li a:hover{
 
 
 /* Media Query Start */
-@media screen and (max-width: 1200px) { 
+@media screen and (max-width: 1200px) {
     .navbar {
         width: 100%;
     }
-    .logo a { 
+
+    .logo a {
         font-size: 50px;
         margin-left: 50px;
     }
-    
+
 }
 
 @media screen and (max-width: 1024px) {
     .navbar {
         width: 100%;
     }
+
     .logo a {
         font-size: 40px;
         margin-left: 50px;
@@ -242,7 +247,8 @@ nav ul li a:hover{
     .navbar {
         width: 100%;
     }
-    .logo  {
+
+    .logo {
         width: 97%;
         display: flex;
         justify-content: center
@@ -264,14 +270,15 @@ nav ul li a:hover{
 
     .menu {
         display: none;
-        width: 100%;    
+        width: 100%;
     }
 
     .menu.active {
         display: block;
     }
+
     nav ul {
-       padding: 0;
+        padding: 0;
     }
 
     nav ul li {
@@ -285,20 +292,20 @@ nav ul li a:hover{
         padding: 10px;
         display: block;
     }
-    
+
     #home {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .footer{
-    font-family: 'Trebuchet MS';
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
+    .footer {
+        font-family: 'Trebuchet MS';
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
     }
 
 }
@@ -307,9 +314,11 @@ nav ul li a:hover{
     .navbar {
         width: 100%;
     }
+
     .logo {
         display: flex;
-        width: 100%;;
+        width: 100%;
+        ;
         text-align: center;
     }
 
@@ -317,19 +326,21 @@ nav ul li a:hover{
         font-size: 40px;
         margin-left: 10px;
     }
+
     .tbl-menu {
         display: flex;
     }
 
     .menu {
-        display: none;    
+        display: none;
     }
 
     .menu.active {
         display: block;
     }
+
     nav ul {
-       padding: 0;
+        padding: 0;
     }
 
     nav ul li {
@@ -343,7 +354,7 @@ nav ul li a:hover{
         padding: 10px;
         display: block;
     }
-    
+
     #home {
         display: flex;
         flex-direction: column;
@@ -362,101 +373,98 @@ nav ul li a:hover{
         margin-left: ;
     }
 }
+
 /* Media Query End */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-top: 40px;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+}
+
+.profile-header {
+    padding: 20px;
+    background-color: #f9f5e7;
+}
+
+.profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.profile-title {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.profile-education {
+    margin-bottom: 15px;
+}
+
+.profile-img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.profile-img-2 {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-btn {
+    background-color: #000;
+    color: white;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #333;
+}
 
 
-/* No body styling here as requested */
-        
-        .container {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 100px;
-            width: 100%;
-            margin: 0 auto;
-        }
-        
-        .profile-card {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            width: 300px;
-            text-align: center;
-            transition: transform 0.3s ease;
-            margin-top: 40px; 
-        }
-        
-        .profile-card:hover {
-            transform: translateY(-5px);
-        }
-        
-        .profile-header {
-            padding: 20px;
-            background-color: #f9f5e7;
-        }
-        
-        .profile-name {
-            font-size: 24px;
-            font-weight: bold;
-            margin: 10px 0;
-        }
-        
-        .profile-title {
-            color: #777;
-            margin-bottom: 15px;
-        }
-        
-        .profile-education {
-            margin-bottom: 15px;
-        }
-
-        .profile-img {
-            width: 100%;
-            border-radius: 50%;
-        }
-
-        .profile-img-2 {
-            width: 100%;
-            border-radius: 20px;
-        }
-        
-        .social-icons {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin: 15px 0;
-        }
-        
-        .social-icon {
-            width: 24px;
-            height: 24px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .contact-btn {
-            background-color: #000;
-            color: white;
-            padding: 15px 0;
-            width: 100%;
-            text-align: center;
-            text-decoration: none;
-            font-weight: bold;
-            display: block;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        
-        .contact-btn:hover {
-            background-color: #333;
-        }
-        
-        /* Responsive styles */
-        @media (max-width: 650px) {
-            .container {
-                flex-direction: column;
-                align-items: center;
-            }
-        }
+@media (max-width: 650px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
